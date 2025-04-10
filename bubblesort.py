@@ -23,7 +23,7 @@ def desc_bubblesort(arr):
     for i in range(n): # process to run n times.
         for j in range(0, n - i - 1): # avoid already sorted items.
             if arr[j] < arr[j+1]:
-                # swap those.
+                # swapping elements.
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 

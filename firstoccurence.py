@@ -1,7 +1,5 @@
 # first occurence.
 def first_occurence(arr, find_num):
-    # initializing a flag.
-    count = 0
     for i in arr:
         if i == find_num:
             return True

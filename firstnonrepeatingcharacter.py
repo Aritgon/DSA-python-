@@ -33,6 +33,6 @@ def nonrepeating(arr):
             return f"{char} : {freq_dict[char]}"
     return None # return none if you don't find anything.
 
-a = "aabbccddddc"
+a = "aabbccddddce"
 print(nonrepeating(a))
 

@@ -1,7 +1,5 @@
-# first occurence check in string.
+# first occurence check in string or double checker.
 def first_occur(arr):
-    n = len(arr)
-
     # storing datas in the dictionary.
     freq_dict= {}
     for char in arr:
@@ -16,5 +14,5 @@ def first_occur(arr):
             return f"{char} : {freq_dict[char]}"
     return None
 
-array = "abcsedbd"
+array = "acsedbd"
 print(first_occur(array))
